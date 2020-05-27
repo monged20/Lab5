@@ -103,7 +103,7 @@ fun main (){
     p3.runBusiness()
     println("")
 */
-    //inheritance - businessman1:person
+    //inheritance - businessMan
     val p4 = businessMan()
     p4.age = 45
     p4.name = "Mike"
@@ -114,7 +114,7 @@ fun main (){
     p4.runBusiness()
     println("")
 
-    //inheritance - mathTeacher1:person
+    //inheritance - math_Teacher
     val p5 = math_Teacher()
     p5.name = "Mark"
     p5.age = 32
@@ -125,7 +125,7 @@ fun main (){
     p5.teachMath()
     println("")
 
-    //inheritance - footballPlayer1:person
+    //inheritance - football_Player
     val p6 = football_Player()
     p6.name = "Travis"
     p6.age = 21
